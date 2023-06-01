@@ -1,0 +1,67 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons');
+
+/* ... resten af din CSS-kode ... */
+
+.nav ul li a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(240, 176, 91, 0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav ul li a:hover::before {
+  opacity: 1;
+}
+
+.fa-solid,
+.fa-brands,
+.fa-duotone {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.fa-solid:before {
+  font-family: "Font Awesome 5 Free Solid";
+}
+
+.fa-duotone:before {
+  font-family: "Font Awesome 5 Free Duotone";
+}
+
+.fa-brands:before {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.fa-square-instagram:before {
+  content: "\f16d";
+}
+
+.fa-square-facebook:before {
+  content: "\f082";
+}
+
+.fa-linkedin-in:before {
+  content: "\f08c";
+}
+
+.fa-person-dress-simple:before {
+  content: "\f5ab";
+}
+
+.fa-phone:before {
+  content: "\f095";
+}
+
+.fa-map-pin:before {
+  content: "\f3c5";
+}
+
+.fa-envelope:before {
+  content: "\f0e0";
+}

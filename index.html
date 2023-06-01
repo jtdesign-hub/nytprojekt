@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JTDesign</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="fontawesome.css">
+  <script src="https://kit.fontawesome.com/2719a300d0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo" class="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#ommig">OM MIG</a></li>
+        <li><a href="#kontakt">KONTAKT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="portfolio">
+    <h1 class="title">MIN PORTFOLIO</h1>
+    <div class="project">
+      <div class="image-grid">
+        <div class="image-container">
+          <div class="project-info">
+            <div class="subtitle">Illustration</div>
+            <h3 class="subtitle">Før</h3>
+            <img class="mads" src="madsfør.jpg" alt="Mads">
+          </div>
+          <p class="image-caption">I Adobe Illustrator kan man forvandle sine billeder om til gode og sjove illusioner og figurer ved hjælp af programmets kreative funktioner og værktøjer.</p>
+        </div>
+        <div class="image-container">
+          <div class="project-info">
+            <h3 class="subtitle">Efter</h3>
+            <img class="pic" src="mads.png" alt="Mads">
+          </div>
+          <p class="image-caption">Ved hjælp fra Illustrator har jeg kunne lave en sød fødselsdagsgave til min moster. Hun havde bedt om at dette billede af hendes lille søn skulle forvandles om til en lille tegneserie figur.</p>
+        </div>
+      </div>
+    </div>
+    <div class="project">
+      <div class="pic-holder">
+        <img class="nikolaj" src="potræt med nikolaj.png" alt="Nikolaj & Jeg">
+      </div>
+      <div class="project-info">
+        <div class="subtitle">Selvportræt</div>
+        <p class="description">Et andet eksempel af hvad vi har lavet i Illustrator, er et selvportræt, jeg valgte et outline-billede af Min kæreste og Jeg.</p>
+      </div>
+    </div>
+    <div class="project">
+      <div class="pic-holder">
+        <img class="dating" src="dating.png" alt="Dating App">
+        <a href="https://xd.adobe.com/view/7de2a7e6-bbec-4817-88a8-64b491aa6be5-28b1/" target="_blank">Dating App</a>
+      </div>
+      <div class="project-info">
+        <div class="subtitle">Dating App</div>
+        <p class="description">I Adobe XD kan man udarbejde forskellige prototyper til forskellige behov, derudover kan man lave layouts og wireframes, samarbejde og dele forskellige filer, hvilket gør XD til et fedt værktøj at arbejde med. Ved hjælp af Adobe XD har jeg i samarbejde med nogle andre multimediedesignere lavet en funktionel prototype til en datingapp for ældre.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="ommig">
+    <div class="top-image">
+      <h1 class="title">OM MIG</h1>
+    </div>
+    <div class="about-me">
+      <div class="pic-container">
+        <img class="me" src="Untitled-1.png" alt="billede af mig">
+      </div>
+      <div class="text-container">
+        <h3>Julie-Timian Toftegaard</h3>
+        <p>Det er mig, jeg er 20 år gammel og studerer til multimediedesigner på UCL.</p>
+        <p>Som multimediedesigner er mit mål at blive god til mit fag og få en stor viden inden for multimediedesign.</p>
+        <p>Jeg valgte Multimediedesign, da jeg godt kan lide at være kreativ. Derudover elsker jeg at prøve nye ting og ikke lave det samme for meget. Med denne uddannelse er der ikke en dag, der er ens!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <h1 class="title">KONTAKT</h1>
+    <div class="contact">
+      <div class="column1">
+        <div class="column1">
+          <h3 class="subtitle">Kontakt Mig</h3>
+          <ul class="info">
+            <li><i class="fas fa-user"></i> <span>Julie-Timian Toftegaard</span></li>
+            <li><i class="fas fa-phone"></i> <span>+45 61 73 42 90</span></li>
+            <li><i class="fas fa-map-marker-alt"></i> <span>Seebladsgade 1, 5000 Odense C</span></li>
+            <li><i class="fas fa-envelope"></i> <span>Julie-Timian@outlook.dk</span></li>
+          </ul>
+        </div>
+        
+        <div class="column2">
+          <h3 class="subtitle">Sociale medier</h3>
+          <ul class="social">
+            <li><i class="fab fa-instagram-square"></i><a href="https://www.instagram.com/julietimian/" target="_blank"> Instagram</a></li>
+            <li><i class="fab fa-facebook-square"></i><a href="https://www.facebook.com/JulieTimianToftegaard" target="_blank"> Facebook</a></li>
+            <li><i class="fab fa-linkedin"></i><a href="https://dk.linkedin.com/in/julie-timian-toftegaard-6a2754264" target="_blank"> Linkedin</a></li>
+          </ul>
+        </div>
+        
+
+          <form action="send_email.php" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Navn" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Besked" required></textarea>
+            <button type="submit">SEND</button>
+          </form>
+        </section>
+
+  <footer>
+    <p>&copy; 2023 Min hjemmeside. Alle rettigheder forbeholdes JTDesign.</p>
+  </footer>
+</body>
+</html>

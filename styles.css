@@ -1,0 +1,276 @@
+/* Reset styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #ddc780;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: auto;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Portfolio section styles */
+#portfolio {
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.project-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #666;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.mads,
+.pic {
+  width: 100%;
+  height: auto;
+}
+
+.image-caption {
+  margin-top: 10px;
+}
+
+/* About me section styles */
+#ommig {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.top-image {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.pic-container {
+  flex: 1;
+  text-align: center;
+}
+
+.me {
+  width: auto;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.text-container {
+  flex: 2;
+  padding-right: 30px;
+}
+
+#kontakt .subtitle {
+  margin-top: 30px;
+}
+
+#kontakt .social {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#kontakt .social li {
+  margin-bottom: 10px;
+}
+
+#kontakt .social li i {
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+}
+
+#kontakt .social li a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #ddc780;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #bba76c;
+}
+
+.column1,
+.column2 {
+  flex: 1;
+  margin: 20px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+}
+
+.info,
+.social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info li,
+.social li {
+  margin-bottom: 10px;
+}
+
+.social li .fa-regular,
+.social li .fa-solid,
+.social li .fa-brands {
+  margin-right: 10px;
+}
+
+.social li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.nikolaj {
+  height: 350px;
+  width: auto;
+}
+
+.mads {
+  height: 350px;
+  width: auto;
+}
+
+.me {
+  height: 300px;
+  width: auto;
+}
+
+.info li {
+  display: flex;
+  align-items: center;
+}
+
+.info li .fa-regular,
+.info li .fa-solid,
+.info li .fa-brands {
+  margin-right: 10px;
+}
+
+.column1,
+.column2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.column1 {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.column2 {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.mads,
+.pic {
+  width: 350px;
+  height: auto;
+}
+
+.image-caption {
+  margin-top: 10px;
+}
+
+.social,
+.kontakt {
+  text-align:inherit;
+}
